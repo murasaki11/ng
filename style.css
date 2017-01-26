@@ -1,0 +1,210 @@
+/*
+| Theme Name: ng
+| Theme URI: http://blog.murasaki11.com/
+| Description: オリジナルなテーマ
+| Version: 3.0.0
+| Author: murasaki
+| Author URI: http://murasaki.com/
+*/
+/* line 12, sass/style.scss */
+h1, h2, h3, h4, h5, h6, p, blockquote {
+  font-family: "メイリオ", "Meiryo", "Arial", "Helvetica", "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", "ＭＳ Ｐゴシック", "MS PGothic", "sans-self";
+}
+
+/* line 16, sass/style.scss */
+code {
+  color: #333333;
+  background-color: rgba(0, 0, 0, 0.03);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  border-radius: 3px;
+  margin: 0 2px;
+  padding: 0 5px;
+}
+
+/* line 24, sass/style.scss */
+pre {
+  font-size: 100%;
+  background-color: white;
+  border: 0;
+  color: black;
+  margin: 0 0 10.5px;
+  padding: 0;
+}
+
+/* solarized 用 インライン */
+/* line 33, sass/style.scss */
+.i {
+  color: #839496;
+  display: inline;
+  border: 1px solid #002b36;
+  border-radius: 5px;
+  background-color: #002b36;
+  padding: 0 4px;
+  margin: 0 4px;
+  font-family: Menlo,Monaco,Consolas,"Courier New",monospace;
+  font-size: 90%;
+}
+
+/* line 45, sass/style.scss */
+.page-header {
+  margin: 64px 0 42px;
+}
+/* line 47, sass/style.scss */
+.page-header h1 {
+  font-size: 4em;
+  font-weight: bold;
+}
+/* line 50, sass/style.scss */
+.page-header h1 a {
+  color: #2c3e50;
+  text-decoration: none;
+}
+/* line 53, sass/style.scss */
+.page-header h1 a:hover {
+  opacity: 0.8;
+}
+/* line 56, sass/style.scss */
+.page-header h1 a small {
+  color: #2c3e50;
+  position: relative;
+  left: -12px;
+  top: -4px;
+}
+
+/* line 66, sass/style.scss */
+.navbar-nav li a i {
+  font-size: 150%;
+}
+
+/* line 70, sass/style.scss */
+section {
+  padding-left: 140px;
+}
+
+/* line 74, sass/style.scss */
+article {
+  margin-bottom: 60px;
+}
+/* line 76, sass/style.scss */
+article .entry-header {
+  margin: 10px 0 30px;
+  position: relative;
+}
+/* line 79, sass/style.scss */
+article .entry-header .entry-title a {
+  text-decoration: none;
+}
+/* line 81, sass/style.scss */
+article .entry-header .entry-title a:hover {
+  opacity: 0.65;
+}
+/* line 85, sass/style.scss */
+article .entry-header .date {
+  position: absolute;
+  left: -120px;
+  top: 0;
+  font-size: 110%;
+  font-weight: bold;
+  line-height: 40px;
+  border-right: 5px solid #ecf0f1;
+  width: 110px;
+}
+/* line 94, sass/style.scss */
+article .entry-header .date a {
+  color: #2c3e50;
+}
+/* line 100, sass/style.scss */
+article .entry-content p, article .entry-content blockquote {
+  font-size: 16px;
+}
+/* line 103, sass/style.scss */
+article .entry-content blockquote {
+  color: #95a5a6;
+  font-style: italic;
+}
+/* line 107, sass/style.scss */
+article .entry-content img {
+  border: 1px solid #95a5a6;
+  border-radius: 3px;
+  padding: 4px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+}
+/* line 114, sass/style.scss */
+article .entry-content img.alignleft {
+  margin-right: 15px;
+}
+/* line 117, sass/style.scss */
+article .entry-content img.aligncenter {
+  display: block;
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+/* line 124, sass/style.scss */
+article .entry-footer {
+  border-top: 1px dotted #2c3e50;
+}
+/* line 126, sass/style.scss */
+article .entry-footer .wp_tags {
+  padding: 8px 10px 0 0;
+}
+/* line 129, sass/style.scss */
+article .entry-footer div {
+  float: left;
+}
+/* line 133, sass/style.scss */
+article .entry-footer span.label:hover {
+  opacity: 0.65;
+}
+/* line 136, sass/style.scss */
+article .entry-footer span.label a {
+  color: white;
+  text-decoration: none;
+}
+
+/* line 144, sass/style.scss */
+.wp_social_bookmarking_light {
+  border: 0 !important;
+  padding: 10px 0 0 0 !important;
+  margin: 0 !important;
+}
+
+/* line 150, sass/style.scss */
+.wp_social_bookmarking_light div {
+  float: left !important;
+  border: 0 !important;
+  padding: 0 !important;
+  margin: 0 5px 0px 0 !important;
+  min-height: 30px !important;
+  line-height: 18px !important;
+  text-indent: 0 !important;
+}
+
+/* line 159, sass/style.scss */
+.wp_social_bookmarking_light img {
+  border: 0 !important;
+  padding: 0;
+  margin: 0;
+  vertical-align: top !important;
+}
+
+/* line 165, sass/style.scss */
+.wp_social_bookmarking_light_clear {
+  clear: both !important;
+}
+
+/* line 168, sass/style.scss */
+#fb-root {
+  display: none;
+}
+
+/* line 171, sass/style.scss */
+.wsbl_twitter {
+  width: 100px;
+}
+
+/* line 174, sass/style.scss */
+.wsbl_facebook_like iframe {
+  max-width: none !important;
+}
